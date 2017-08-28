@@ -1,0 +1,8 @@
+#ifndef _READING_FLASH_FROM_H_
+#define _READING_FLASH_FROM_H_
+
+//º¯ÊýÉùÃ÷ 
+extern void reading_flash_from_secotr();
+
+
+#endif
