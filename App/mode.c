@@ -37,6 +37,9 @@
 uint8 target_mode=1;
 uint8 goto_nine_flag = 0;
 uint8 stubbon = 0;
+/***************************************************
+              ABCD四个指定目标点函数
+***************************************************/
 
 int32 ABCD_judge(uint8 mod)
 {
@@ -62,7 +65,9 @@ int32 ABCD_judge(uint8 mod)
   {SetPosition_x = SetPosition_temp_x9;SetPosition_y = SetPosition_temp_y9;}
 
 }
-
+/***************************************************
+                   模式选择函数
+***************************************************/
 void mode_select()
 {
   

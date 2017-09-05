@@ -1,8 +1,13 @@
+/********************板球控制系统********************
+            版本号：V2.1    路径优化
+              苏晨珲  林本丰  左冲
+******************************************************/
+
 #include "common.h"
 #include "include.h"
 
 //函数声明
-void main_menu_task(void);
+void main_menu_task(void);      //菜单函数
 
 uint8  var1,var2;
 uint16  var3,var4;
@@ -15,7 +20,7 @@ uint8 return_menu2=0;//选定选项后 置1返回标志
 /****************按键选项8置1写入***********************/
 uint8 fw_confirm1=0; //flashwrite_confirm 选取第几个选项标志
 uint8 fw_confirm2=0; //flashwrite_confirm 选定选项后 置1返回标志
-/******************按键选项数记录**********************/
+/******************按键选项数记录,flash保存动态调参**********************/
 uint8 memoryflag1=0;
 
 uint8 memory_flag1=0;

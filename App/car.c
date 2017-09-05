@@ -1,7 +1,7 @@
 #include "include.h"
 
 
-//жп╤осеох╪╤
+//Д╦╜Ф√╜Д╪≤Е┘┬Г╨╖
 void car_init()
 {
   set_irq_priority(UART4_RX_TX_IRQn,0);
